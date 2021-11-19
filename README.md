@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterPipeline
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] pipeline.
 
@@ -198,8 +198,8 @@ console.log( '%d of %d', count, N );
 
 ## See Also
 
--   [`@stdlib/iter/flow`][@stdlib/iter/flow]: create a fluent interface for chaining together iterator methods.
--   [`@stdlib/iter/pipeline-thunk`][@stdlib/iter/pipeline-thunk]: create an iterator thunk.
+-   <span class="package-name">[`@stdlib/iter/flow`][@stdlib/iter/flow]</span><span class="delimiter">: </span><span class="description">create a fluent interface for chaining together iterator methods.</span>
+-   <span class="package-name">[`@stdlib/iter/pipeline-thunk`][@stdlib/iter/pipeline-thunk]</span><span class="delimiter">: </span><span class="description">create an iterator thunk.</span>
 
 </section>
 
@@ -250,8 +250,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/iter-pipeline/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/iter-pipeline?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/iter-pipeline.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/iter-pipeline/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
