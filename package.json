@@ -37,22 +37,22 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-array-like-object": "^0.0.x",
-    "@stdlib/assert-is-function": "^0.0.x",
-    "@stdlib/assert-is-iterator-like": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
-    "@stdlib/types": "^0.0.x"
+    "@stdlib/assert-is-array-like-object": "^0.0.8",
+    "@stdlib/assert-is-function": "^0.0.8",
+    "@stdlib/assert-is-iterator-like": "^0.0.7",
+    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
-    "@stdlib/array-to-iterator": "^0.0.x",
-    "@stdlib/assert-is-boolean": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/iter-head": "^0.0.x",
-    "@stdlib/iter-map": "^0.0.x",
-    "@stdlib/iter-pipeline-thunk": "^0.0.x",
-    "@stdlib/iter-some": "^0.0.x",
-    "@stdlib/iter-some-by": "^0.0.x",
-    "@stdlib/random-iter-randu": "^0.0.x",
+    "@stdlib/array-to-iterator": "^0.0.6",
+    "@stdlib/assert-is-boolean": "^0.0.8",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/iter-head": "^0.0.7",
+    "@stdlib/iter-map": "^0.0.7",
+    "@stdlib/iter-pipeline-thunk": "^0.0.8",
+    "@stdlib/iter-some": "^0.0.7",
+    "@stdlib/iter-some-by": "^0.0.7",
+    "@stdlib/random-iter-randu": "^0.0.6",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
@@ -90,7 +90,7 @@
     "stream"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
