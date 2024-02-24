@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-pipeline/tags). For example,
+
+```javascript
 import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.1-esm/index.mjs';
 ```
 
@@ -149,7 +154,7 @@ import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@esm/index.
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@esm/index.mjs';
 import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@esm/index.mjs';
 import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@esm/index.mjs';
-import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.1-esm/index.mjs';
+import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@esm/index.mjs';
 
 function threshold( r ) {
     return ( r > 0.95 );
