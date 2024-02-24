@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-pipeline",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create an iterator pipeline.",
   "license": "Apache-2.0",
   "author": {
@@ -37,25 +37,25 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-array-like-object": "^0.2.0",
-    "@stdlib/assert-is-function": "^0.2.0",
-    "@stdlib/assert-is-iterator-like": "^0.2.0",
-    "@stdlib/string-format": "^0.2.0",
-    "@stdlib/types": "^0.3.1"
+    "@stdlib/assert-is-array-like-object": "^0.2.1",
+    "@stdlib/assert-is-function": "^0.2.1",
+    "@stdlib/assert-is-iterator-like": "^0.2.1",
+    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/array-to-iterator": "^0.1.0",
-    "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/iter-head": "^0.1.0",
-    "@stdlib/iter-map": "^0.1.1",
-    "@stdlib/iter-pipeline-thunk": "^0.2.0",
-    "@stdlib/iter-some": "^0.1.0",
-    "@stdlib/iter-some-by": "^0.2.0",
-    "@stdlib/random-iter-randu": "^0.1.0",
+    "@stdlib/array-to-iterator": "^0.2.0",
+    "@stdlib/assert-is-boolean": "^0.2.1",
+    "@stdlib/iter-head": "^0.2.1",
+    "@stdlib/iter-map": "^0.2.1",
+    "@stdlib/iter-pipeline-thunk": "^0.2.1",
+    "@stdlib/iter-some": "^0.2.1",
+    "@stdlib/iter-some-by": "^0.2.1",
+    "@stdlib/random-iter-randu": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
