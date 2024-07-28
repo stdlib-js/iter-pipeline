@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-pipeline",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create an iterator pipeline.",
   "license": "Apache-2.0",
   "author": {
@@ -38,20 +38,20 @@
   },
   "dependencies": {
     "@stdlib/assert-is-array-like-object": "^0.2.1",
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/assert-is-iterator-like": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-iterator-like": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.2.1",
-    "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/iter-head": "^0.2.1",
-    "@stdlib/iter-map": "^0.2.1",
-    "@stdlib/iter-pipeline-thunk": "^0.2.1",
-    "@stdlib/iter-some": "^0.2.1",
-    "@stdlib/iter-some-by": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/iter-head": "^0.2.2",
+    "@stdlib/iter-map": "^0.2.2",
+    "@stdlib/iter-pipeline-thunk": "^0.2.2",
+    "@stdlib/iter-some": "^0.2.2",
+    "@stdlib/iter-some-by": "^0.2.2",
     "@stdlib/random-iter-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
