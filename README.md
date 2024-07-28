@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+iterPipeline = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-pipeline/tags). For example,
+
+```javascript
 iterPipeline = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.2-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var iterPipeline = require( 'path/to/vendor/umd/iter-pipeline/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -171,7 +176,7 @@ bool = p( arr );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
