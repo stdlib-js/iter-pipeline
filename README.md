@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@deno/mod.js';
+import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.3-deno/mod.js';
 ```
 
 #### iterPipeline( iterFcn0\[, ...iterFcn] )
@@ -144,7 +144,7 @@ import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.j
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
 import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
 import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@deno/mod.js';
-import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@deno/mod.js';
+import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@v0.2.3-deno/mod.js';
 
 function threshold( r ) {
     return ( r > 0.95 );
